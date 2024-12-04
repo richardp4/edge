@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from ultralytics import YOLO
 
 # Load the YOLOv8 model
