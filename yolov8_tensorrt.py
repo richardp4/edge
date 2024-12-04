@@ -16,7 +16,7 @@ model.export(
 tensorrt_model = YOLO("yolov8n.engine")
 
 # Perform inference on a local image
-results = tensorrt_model("local_image.jpg")  # 로컬 이미지 경로 사용
+results = tensorrt_model("test.jpg")  # 로컬 이미지 경로 사용
 
 # Process and display results
 for result in results:
